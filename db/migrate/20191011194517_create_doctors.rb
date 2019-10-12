@@ -10,9 +10,9 @@ class CreateDoctors < ActiveRecord::Migration[5.0]
 
   def up
      change_column :CreateDoctors, :department, :string
- end
+  end
 
- def down
+  def down
      change_column :CreateDoctors, :department, :integer
- end
+  end
 end
