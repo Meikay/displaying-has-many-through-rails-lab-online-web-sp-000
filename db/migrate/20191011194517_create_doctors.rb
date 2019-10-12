@@ -7,4 +7,12 @@ class CreateDoctors < ActiveRecord::Migration[5.0]
       t.timestamps
     end
   end
+
+  def up
+     change_column :CreateDoctors, :department, :string
+ end
+
+ def down
+     change_column :CreateDoctors, :department, :integer
+ end
 end
