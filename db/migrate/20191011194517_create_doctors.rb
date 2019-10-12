@@ -5,5 +5,5 @@ class CreateDoctors < ActiveRecord::Migration[5.0]
       t.string :department
 
       t.timestamps
-    end
+  end
 end
